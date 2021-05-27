@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student grade calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>calculate your grade</h1>
+      <input class="input" type="text" placeholder="Economics" id="eco" />
+      <input class="input" type="text" placeholder="English" id="eng" />
+      <input class="input" type="text" placeholder="physcology" id="phy" />
+      <input
+        type="button"
+        value="calPerc"
+        class="input"
+        id="btn"
+        onclick="calc()"
+      />
+    <div class="output">
+      <p id="results"></p>
+    </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
